@@ -13,10 +13,9 @@ while i<number_of_cases:
 		digit=int(digit)#shows error unless int defined
 		summ = summ + digit
 
-		print("%d{%d}%d"%(digit, summ,number))
-		number = (number )/int(math.pow(nod-1,10))
-		print(math.pow(10,nod-1))
-		print("%d,%d"%(number,nod))
+		
+		number = (number )/int(math.pow(10,nod-1))
+		
 		#last digit added to sum and then removed.
 		number=int(number)#shows error unless int defined
 		a += 1
